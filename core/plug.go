@@ -5,7 +5,7 @@ import (
 	"plugin"
 	"github.com/google/gopacket"
 	"io"
-	mysql "github.com/4787878340/sniffer/plugSrc/mysql/build"
+	mysql "github.com/787878340/sniffer/plugSrc/mysql/build"
 	redis "github.com/787878340/sniffer/plugSrc/redis/build"
 	hp "github.com/787878340/sniffer/plugSrc/http/build"
 	mongodb "github.com/787878340/sniffer/plugSrc/mongodb/build"
