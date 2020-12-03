@@ -86,7 +86,7 @@ func (m *Mysql) ResolveStream(net, transport gopacket.Flow, buf io.Reader) {
 }
 
 func (m *Mysql) BPFFilter() string {
-	return "tcp and port "+strconv.Itoa(m.port);
+	return "tcp 1111 and port "+strconv.Itoa(m.port);
 }
 
 func (m *Mysql) Version() string {
